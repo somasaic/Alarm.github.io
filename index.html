@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <!-- <header>
+    <h1>Alarm Clock</h1>
+  </header> -->
+  
+  <div class="clock">
+    <h1>Alarm Clock</h1>
+    <h2 id="time"></h2>
+  </div>
+  <div class="alarm">
+    <h3>Set Alarm</h3>
+    <input id="hour" type="number" placeholder="Hour" min="1" max="12">
+    <input id="minute" type="number" placeholder="Minute" min="0" max="59">
+    <input id="second" type="number" placeholder="Second" min="0" max="59">
+    <select id="ampm">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+    <button id="setAlarm">Set Alarm</button>
+  </div>
+  <div class="alarms">
+    <h3>Alarms List</h3>
+    <ul id="alarmList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(135deg, #89f7fe 0%, #151c27 100%);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s infinite alternate;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+
+/* header{
+  width: 100%;
+  height: fit-content;
+}
+  
+h1{
+  color: white;
+  font-size: 100;
+
+} */
+  .clock {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .alarm {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, button {
+    margin: 10px;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .alarms {
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  h3{
+    background-color: #343c34;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 15px 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e53935;
+  }
+  
